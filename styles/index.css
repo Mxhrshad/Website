@@ -16,7 +16,8 @@
 
 .header{
     width: 100%;
-    height: 500px;
+    height: auto;
+    padding: 50px 0;
     background-color: #1F2937;
 }
 
@@ -55,6 +56,67 @@
 
 .header-links a{
     text-decoration: none;
-    color: #c8c9c6;
+    color: #e5e7eb;
     font-size: 18px;   
+}
+
+.description{
+    height: 325px;
+    width: 100%;
+    padding: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.description-left{
+    width: 50%;
+    height: 100%;
+}
+
+.description-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.description-left p{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 10px;
+}
+
+.description-left button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-box{
+    width: 100%;
+    height: 75%;
+    background-color: #787878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box p{
+    color: #f9faf8;
+    font-size: 20px;
 }
