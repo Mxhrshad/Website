@@ -1,1 +1,1 @@
-# Website
+this is a website that we're designing for The Odin Project Lesson.
