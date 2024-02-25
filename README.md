@@ -1,1 +1,1 @@
-this is a website that we're designing for The Odin Project Lesson.
+this is a website that we're designing for The Odin Project Lesson
